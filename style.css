@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: grey;
+}
+
+#time {
+  display: flex;
+  gap: 2.5rem;
+  color: aliceblue;
+}
+
+#time .circle {
+  position: relative;
+  height: 10rem;
+  width: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* stroke: black;
+  stroke-width: 0.25rem;
+  transform: translate(5px, 5px); */
+}
+#time .circle::before {
+  height: 10rem;
+  width: 10rem;
+  position: relative;
+  fill: transparent;
+  stroke: black;
+  stroke-width: 0.25rem;
+  transform: translate(5px, 5px);
+}
+#time div {
+  position: absolute;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 500;
+}
+#time .ap {
+  position: relative;
+  font: 1rem;
+  transform: translateX(1.25rem);
+}
