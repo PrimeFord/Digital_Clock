@@ -27,6 +27,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: brown; */
   /* stroke: black;
   stroke-width: 0.25rem;
   transform: translate(5px, 5px); */
@@ -36,7 +37,9 @@ body {
   width: 10rem;
   position: relative;
   fill: transparent;
+  background-color: aqua;
   stroke: black;
+  border-radius: 50%;
   stroke-width: 0.25rem;
   transform: translate(5px, 5px);
 }
