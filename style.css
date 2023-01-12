@@ -11,46 +11,47 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: grey;
+  background-color: black;
 }
 
-#time {
+.wrapper {
+  height: 6rem;
+  width: 24rem;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  animation: animate 1.5s linear infinite;
+  box-shadow: 0 0 0.3rem linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  border-radius: 0.75rem;
   display: flex;
-  gap: 2.5rem;
-  color: aliceblue;
-}
-
-#time .circle {
-  position: relative;
-  height: 10rem;
-  width: 10rem;
-  display: flex;
-  justify-content: center;
   align-items: center;
-  /* background-color: brown; */
-  /* stroke: black;
-  stroke-width: 0.25rem;
-  transform: translate(5px, 5px); */
+  justify-content: center;
 }
-#time .circle::before {
-  height: 10rem;
-  width: 10rem;
-  position: relative;
-  fill: transparent;
-  background-color: aqua;
-  stroke: black;
-  border-radius: 50%;
-  stroke-width: 0.25rem;
-  transform: translate(5px, 5px);
-}
-#time div {
-  position: absolute;
+
+.wrapper #time {
+  height: 5rem;
+  width: 23rem;
+  background-color: #1b1b1b;
+  display: flex;
   text-align: center;
-  font-size: 2rem;
-  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  z-index: 999;
 }
-#time .ap {
-  position: relative;
-  font: 1rem;
-  transform: translateX(1.25rem);
+
+.wrapper #time div {
+  font-size: 3rem;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.5rem;
+  background: linear-gradient(135deg, #14ffe9, #ffeb3b, #ff00e0);
+  animation: animate 1.5s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes animate {
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+#ampm {
+  margin-left: 1rem;
 }
