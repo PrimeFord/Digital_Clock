@@ -22,7 +22,7 @@ Clone or download this repository and run with a local server of open `index.htm
 
 ## Demo
 
-[Preview Here](https://digital-clock-c9cqynf5k-primeford.vercel.app)
+[Preview Here](https://prismatic-klepon-a7e340.netlify.app)
 
 ![screenshot](./media/snip.png)
 
