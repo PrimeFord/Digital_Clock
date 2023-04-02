@@ -24,7 +24,7 @@ Clone or download this repository and run with a local server of open `index.htm
 
 [Preview Here](https://prismatic-klepon-a7e340.netlify.app)
 
-![screenshot](./media/snip.png)
+![screenshot](./media/snip.PNG)
 
 ## Contact
 
